@@ -1,10 +1,9 @@
 :root {
   --bg-dark: rgb(35, 37, 86);
   --bg-btn: #ffD050;
-  --bg-regular: #592EA9;
+  --bg-btn-hover: #EDC14A;
   --bg-dark-gray: #4C4C4C;
   --bg-medim-gray: #6D6E76;
-
   --font-color-light: #FFFFFF;
   --font-color-medium: var(--bg-medim-gray);
   --font-color-dark: var(--bg-dark);
@@ -32,4 +31,13 @@ header {
 
 .btn-sb {
   background-color: var(--font-color-light);
+}
+
+.btn-yl {
+  background-color: var(--bg-btn);
+  transition: background-color 0.3s linear;
+}
+
+.btn-yl:hover {
+  background-color: var(--bg-btn-hover);
 }
